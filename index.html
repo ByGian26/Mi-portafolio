@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"></i>
+                        <h1>Giancarlo</h1>
+                    </div>
+                    <nav id="nav" class=""">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="https://github.com/ByGian26" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/giancarlo-cabrejos-garcia-550a41175/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Desarrollo Web Front End</h2>
+                        <p>Técnico en Soporte y Mantenimiento de Equipos de Cómputos, con conocimientos en Desarrollo Web
+                            Front-End, HTML5, CSS3, JavaScript, Angular y también en QA. Experiencia en QA con Metodología 
+                            Scrum. Me considero una persona que trabaja en equipo, responsable, puntual, trabaja bajo presión.</p>
+                        <a class="btn btn-1" id="btn" href="img/CV- Giancarlo Cabrejos.pdf" target="_blank">Descargar CV</a>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/foto-inicio.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!-- sección SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño Web</h3>
+                    <p>Diseños limpios y modernos: optimizados para el rendimiento, los motores de búsqueda y la conversión de usuarios en clientes.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                        </div>
+                    </div>
+                    <h3>Integracion de Redes Sociales</h3>
+                    <p>La integración de redes sociales permite que su sitio web publique actualizaciones en Facebook, muestre un feed de Twitter y enlaces a sus cuentas de redes sociales.
+
+                        .</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                    </div>
+                    <h3>Compatible con dispositivos Moviles</h3>
+                    <p>Un diseño receptivo hace que su sitio web sea accesible para todos los usuarios, independientemente de su dispositivo.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                    </div>
+                    <h3>Analitica</h3>
+                    <p>Get insights into who is browsing your site so that you can make smarter business decisions.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño de Logo</h3>
+                    <p>Nuestro objetivo es diseñar un logotipo profesional pero creativo que refleje el espíritu de su empresa y deje un efecto duradero y memorable.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <h3>Tiendas</h3>
+                    <p>
+                        Integración de plataformas de comercio electrónico, pasarelas de pago, plantillas de productos personalizados y más.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="95">
+                                95%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>BOOSTRAP</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="85">
+                                85%
+                            </div>
+                            <h2>JAVASCRIPT</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>MYSQL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>ANGULAR</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>PHOTOSHOP</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/trabajo1.jpg" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo2.jpg" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="img/trabajo4.jpg" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo6.jpg" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="img/trabajo7.jpg" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo8.jpg" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo9.jpg" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>gian.cabrejos01@gmail</p>
+                    </div>
+                    <div class="info">
+                        <h3>Celular:</h3>
+                        <p>+51 917655652</p>
+                    </div>
+                    <div class="info">
+                        <h3>País</h3>
+                        <p>Perú</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>Chimbote</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Nombre...">
+                    <input type="text" placeholder="Correo...">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Creado por Giancarlo Cabrejos Garcia - 2023 ©</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
